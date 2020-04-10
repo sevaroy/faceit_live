@@ -31,11 +31,11 @@ $ sudo modprobe v4l2loopback video_nr=1
 $ v4l2-ctl -d /dev/video1 -c timeout=3000
 ```
 
-Via PPA “Oficial”
+Via PPA “Official”
 ```
 $sudo add-apt-repository ppa:webcamstudio/webcamstudio-dailybuilds
 $sudo apt-get update
-$sudo apt-get instal webcamstudio
+$sudo apt-get instal webcamstudio # 
 ```
 
 This will create a new stream at */dev/video1*
